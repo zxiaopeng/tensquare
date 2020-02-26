@@ -4,5 +4,7 @@ spring:
   application:  
     name: tensquare-spit #指定服务名
   data:
-    mongodb: 106.13.57.246
+    mongodb: 106.13.57.246:27017
     database: spitdb
+  redis:
+    host: 106.13.57.246
